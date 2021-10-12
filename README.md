@@ -27,7 +27,7 @@ When you select a GameObject in Scene view or in the Hierarchy, you’ll see its
 
 The Toolbar is always at the top of the Unity Editor interface. Use the toolbar buttons to select and adjust GameObjects, change your point of view in the scene, and start and stop Play Mode.
 
-#### Tips and Tricks
+### Tips and Tricks
 
 > Duplicating a GameObject on Heirarchy - Cmd+D
 

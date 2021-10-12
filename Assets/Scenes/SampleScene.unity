@@ -417,8 +417,8 @@ GameObject:
   - component: {fileID: 974708620}
   - component: {fileID: 974708619}
   - component: {fileID: 974708618}
-  - component: {fileID: 974708617}
   - component: {fileID: 974708621}
+  - component: {fileID: 974708617}
   m_Layer: 0
   m_Name: Player (1)
   m_TagString: Untagged
@@ -426,8 +426,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &974708617
-BoxCollider:
+--- !u!135 &974708617
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -437,7 +437,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &974708618
 MeshRenderer:
@@ -485,7 +485,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974708616}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &974708620
 Transform:
   m_ObjectHideFlags: 0
