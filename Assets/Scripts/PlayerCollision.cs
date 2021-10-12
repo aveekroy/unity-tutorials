@@ -1,0 +1,12 @@
+﻿using UnityEngine;
+
+public class PlayerCollision : MonoBehaviour
+{
+    private void OnCollisionEnter(Collision collision)
+    {
+        // If rigidbody or the box collider is there, this function would be called.
+
+        Debug.Log("We hit ->" + collision.collider.name);
+    }
+
+}
