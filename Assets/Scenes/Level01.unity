@@ -337,6 +337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 742402879}
+  forwardForce: 4000
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
