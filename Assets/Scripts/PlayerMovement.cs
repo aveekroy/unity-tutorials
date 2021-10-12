@@ -7,8 +7,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody rb;
 
-    // Update is called once per frame
-    void Update()
+    // FixedUpdate is called once per frame when physics is involved - it is recommended
+    void FixedUpdate()
     {
         rb.AddForce(0, 0, 2000 * Time.deltaTime);
     }
