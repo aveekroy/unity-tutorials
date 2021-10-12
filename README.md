@@ -40,3 +40,5 @@ The Toolbar is always at the top of the Unity Editor interface. Use the toolbar 
 > Materials - Applying colors to GameObjects
 
 > Physic Material - used to adjust friction and bouncing effects of colliding objects.
+
+> Prefabs - allows to duplicate gameObjects so that we don't have to create similar things manually.
