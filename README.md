@@ -30,6 +30,7 @@ The Toolbar is always at the top of the Unity Editor interface. Use the toolbar 
 ### Shortcut Keys
 
 > Cmd + P - Starts and Stops the Game in the Game View
+
 > Cmd + D - Duplicate the GameObjects in the Heirarchy
 
 
