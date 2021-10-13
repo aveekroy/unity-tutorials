@@ -21,20 +21,21 @@ public class PlayerMovement : MonoBehaviour
 		// Add a forward force
 		rb.AddForce(0, 0, forwardForce * Time.deltaTime);
 
-		if (Input.GetKey(KeyCode.D)) // If the player is pressing the "d" key
-		{
-			// Add a force to the right
-			Debug.Log("d pressed");
-			rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-		}
+
+        if (Input.GetKey("d")) // If the player is pressing the "d" key
+        {
+            // Add a force to the right
+            Debug.Log("d pressed");
+            rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+        }
 
 
 
-		if (Input.GetKey(KeyCode.A))  // If the player is pressing the "a" key
-		{
-			// Add a force to the left
-			Debug.Log("a pressed");
-			rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-		}
-	}
+        if (Input.GetKey("a"))  // If the player is pressing the "a" key
+        {
+            // Add a force to the left
+            Debug.Log("a pressed");
+            rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+        }
+    }
 }
