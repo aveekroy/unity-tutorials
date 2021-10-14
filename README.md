@@ -33,6 +33,7 @@ The Toolbar is always at the top of the Unity Editor interface. Use the toolbar 
 
 > Cmd + D - Duplicate the GameObjects in the Heirarchy
 
+> Cmd + Ctrl + Shift + F (while choosing Main Camera) - makes the Game View similar to the Scene View.
 
 ### Tips and Tricks
 
@@ -49,3 +50,9 @@ The Toolbar is always at the top of the Unity Editor interface. Use the toolbar 
 > Physic Material - used to adjust friction and bouncing effects of colliding objects.
 
 > Prefabs - allows to duplicate gameObjects so that we don't have to create similar things manually.
+
+> Playmode tint - Preferences - Colors - Playmode tint - it can help you to change the colour of the IDE when you are in Play mode.
+
+> Saving Changes in Play Mode - https://youtube.com/clip/Ugkxi2SasvyriFiLK4Hi40J6B1yFH6gu6aNb
+
+> Spaces and Headers - https://youtube.com/clip/Ugkxi2CiSpw5hQLLGQeLpfO34oa9HI9YOyoS
