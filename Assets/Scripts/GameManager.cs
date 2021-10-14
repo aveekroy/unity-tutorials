@@ -7,7 +7,16 @@ public class GameManager : MonoBehaviour
 
     public GameObject restartText;
 
-    bool gameHasEnded=false;
+    public GameObject completeLevelUI;
+
+    public bool gameHasEnded =false;
+
+    public float restartDelay = 2f;
+
+    public void CompleteLevel()
+    {
+        completeLevelUI.SetActive(true);
+    }
 
     public void GameOver()
     {
@@ -16,7 +25,7 @@ public class GameManager : MonoBehaviour
             Debug.Log("GAME OVER!!!");
             restartText.SetActive(true);
             // Invoke helps in delaying the function to be called - here 2 seconds delay in calling Restart function
-            Invoke("Restart", 2f);
+            Invoke("Restart", restartDelay);
         }
     }
 
