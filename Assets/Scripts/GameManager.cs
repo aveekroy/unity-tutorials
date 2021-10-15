@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
         completeLevelUI.SetActive(true);
     }
 
+    #region GameOver
     public void GameOver()
     {
         if (gameHasEnded == false) { 
@@ -28,11 +29,14 @@ public class GameManager : MonoBehaviour
             Invoke("Restart", restartDelay);
         }
     }
+    #endregion
 
+    #region Restart
     void Restart()
     {
         //LoadScene - Loads the scene
         //GetActiveScene - Gets the current scene of the game
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    #endregion
 }

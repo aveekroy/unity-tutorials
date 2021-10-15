@@ -30,13 +30,14 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-
+      
         if (Input.GetKey("a"))  // If the player is pressing the "a" key
         {
             // Add a force to the left
            
             rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
+       
 
         if(rb.position.y < -1f)
         {
